@@ -1,0 +1,1303 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>dozer package &#8212; Dozer 1.2.3 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="dozer-package">
+<h1>dozer package<a class="headerlink" href="#dozer-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dozer.cogs.html">dozer.cogs package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.development">dozer.cogs.development module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.fun">dozer.cogs.fun module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.general">dozer.cogs.general module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.info">dozer.cogs.info module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.maintenance">dozer.cogs.maintenance module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.moderation">dozer.cogs.moderation module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.namegame">dozer.cogs.namegame module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.roles">dozer.cogs.roles module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.tba">dozer.cogs.tba module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.teams">dozer.cogs.teams module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.toa">dozer.cogs.toa module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs.voice">dozer.cogs.voice module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dozer.cogs.html#module-dozer.cogs">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-dozer.bot">
+<span id="dozer-bot-module"></span><h2>dozer.bot module<a class="headerlink" href="#module-dozer.bot" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.bot.Dozer">
+<em class="property">class </em><code class="descclassname">dozer.bot.</code><code class="descname">Dozer</code><span class="sig-paren">(</span><em>config</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.Dozer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">discord.ext.commands.bot.Bot</span></code></p>
+<dl class="staticmethod">
+<dt id="dozer.bot.Dozer.format_error">
+<em class="property">static </em><code class="descname">format_error</code><span class="sig-paren">(</span><em>ctx</em>, <em>err</em>, <em>*</em>, <em>word_re=re.compile('[A-Z][a-z]+')</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.Dozer.format_error" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.bot.Dozer.get_context">
+<code class="descname">get_context</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.Dozer.get_context" title="Permalink to this definition">¶</a></dt>
+<dd><p><a href="#id101"><span class="problematic" id="id102">|coro|</span></a></p>
+<p>Returns the invocation context from the message.</p>
+<p>This is a more low-level counter-part for <code class="xref py py-meth docutils literal notranslate"><span class="pre">process_commands()</span></code>
+to allow users more fine grained control over the processing.</p>
+<p>The returned context is not guaranteed to be a valid invocation
+context, <code class="xref py py-attr docutils literal notranslate"><span class="pre">Context.valid</span></code> must be checked to make sure it is.
+If the context is not valid then it is not a valid candidate to be
+invoked under <code class="xref py py-meth docutils literal notranslate"><span class="pre">invoke()</span></code>.</p>
+<dl class="docutils">
+<dt>message: <code class="xref py py-class docutils literal notranslate"><span class="pre">discord.Message</span></code></dt>
+<dd>The message to get the invocation context from.</dd>
+<dt>cls</dt>
+<dd>The factory class that will be used to create the context.
+By default, this is <code class="xref py py-class docutils literal notranslate"><span class="pre">Context</span></code>. Should a custom
+class be provided, it must be similar enough to <code class="xref py py-class docutils literal notranslate"><span class="pre">Context</span></code>’s
+interface.</dd>
+</dl>
+<dl class="docutils">
+<dt><code class="xref py py-class docutils literal notranslate"><span class="pre">Context</span></code></dt>
+<dd>The invocation context. The type of this can change via the
+<code class="docutils literal notranslate"><span class="pre">cls</span></code> parameter.</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.bot.Dozer.global_checks">
+<code class="descname">global_checks</code><span class="sig-paren">(</span><em>ctx</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.Dozer.global_checks" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.bot.Dozer.on_command_error">
+<code class="descname">on_command_error</code><span class="sig-paren">(</span><em>ctx</em>, <em>err</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.Dozer.on_command_error" title="Permalink to this definition">¶</a></dt>
+<dd><p><a href="#id103"><span class="problematic" id="id104">|coro|</span></a></p>
+<p>The default command error handler provided by the bot.</p>
+<p>By default this prints to <code class="docutils literal notranslate"><span class="pre">sys.stderr</span></code> however it could be
+overridden to have a different implementation.</p>
+<p>This only fires if you do not specify any listeners for command error.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.bot.Dozer.on_ready">
+<code class="descname">on_ready</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.Dozer.on_ready" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.bot.Dozer.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.Dozer.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>A blocking call that abstracts away the <a href="#id107"><span class="problematic" id="id108">`event loop`_</span></a>
+initialisation from you.</p>
+<p>If you want more control over the event loop then this
+function should not be used. Use <code class="xref py py-meth docutils literal notranslate"><span class="pre">start()</span></code> coroutine
+or <code class="xref py py-meth docutils literal notranslate"><span class="pre">connect()</span></code> + <code class="xref py py-meth docutils literal notranslate"><span class="pre">login()</span></code>.</p>
+<p>Roughly Equivalent to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="p">:</span>
+    <span class="n">loop</span><span class="o">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">start</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">))</span>
+<span class="k">except</span> <span class="ne">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="n">loop</span><span class="o">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">logout</span><span class="p">())</span>
+    <span class="c1"># cancel all tasks lingering</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">loop</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>This function must be the last function to call due to the fact that it
+is blocking. That means that registration of events or anything being
+called after this function call will not execute until it returns.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.bot.Dozer.shutdown">
+<code class="descname">shutdown</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.Dozer.shutdown" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.bot.DozerContext">
+<em class="property">class </em><code class="descclassname">dozer.bot.</code><code class="descname">DozerContext</code><span class="sig-paren">(</span><em>**attrs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.DozerContext" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">discord.ext.commands.context.Context</span></code></p>
+<dl class="method">
+<dt id="dozer.bot.DozerContext.send">
+<code class="descname">send</code><span class="sig-paren">(</span><em>content=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.DozerContext.send" title="Permalink to this definition">¶</a></dt>
+<dd><p><a href="#id105"><span class="problematic" id="id106">|coro|</span></a></p>
+<p>Sends a message to the destination with the content given.</p>
+<p>The content must be a type that can convert to a string through <code class="docutils literal notranslate"><span class="pre">str(content)</span></code>.
+If the content is set to <code class="docutils literal notranslate"><span class="pre">None</span></code> (the default), then the <code class="docutils literal notranslate"><span class="pre">embed</span></code> parameter must
+be provided.</p>
+<p>To upload a single file, the <code class="docutils literal notranslate"><span class="pre">file</span></code> parameter should be used with a
+single <code class="xref py py-class docutils literal notranslate"><span class="pre">File</span></code> object. To upload multiple files, the <code class="docutils literal notranslate"><span class="pre">files</span></code>
+parameter should be used with a <code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code> of <code class="xref py py-class docutils literal notranslate"><span class="pre">File</span></code> objects.
+<strong>Specifying both parameters will lead to an exception</strong>.</p>
+<p>If the <code class="docutils literal notranslate"><span class="pre">embed</span></code> parameter is provided, it must be of type <code class="xref py py-class docutils literal notranslate"><span class="pre">Embed</span></code> and
+it must be a rich embed type.</p>
+<dl class="docutils">
+<dt>content</dt>
+<dd>The content of the message to send.</dd>
+<dt>tts: bool</dt>
+<dd>Indicates if the message should be sent using text-to-speech.</dd>
+<dt>embed: <code class="xref py py-class docutils literal notranslate"><span class="pre">Embed</span></code></dt>
+<dd>The rich embed for the content.</dd>
+<dt>file: <code class="xref py py-class docutils literal notranslate"><span class="pre">File</span></code></dt>
+<dd>The file to upload.</dd>
+<dt>files: List[<code class="xref py py-class docutils literal notranslate"><span class="pre">File</span></code>]</dt>
+<dd>A list of files to upload. Must be a maximum of 10.</dd>
+<dt>nonce: int</dt>
+<dd>The nonce to use for sending this message. If the message was successfully sent,
+then the message will have a nonce with this value.</dd>
+<dt>delete_after: float</dt>
+<dd>If provided, the number of seconds to wait in the background
+before deleting the message we just sent. If the deletion fails,
+then it is silently ignored.</dd>
+</dl>
+<dl class="docutils">
+<dt>HTTPException</dt>
+<dd>Sending the message failed.</dd>
+<dt>Forbidden</dt>
+<dd>You do not have the proper permissions to send the message.</dd>
+<dt>InvalidArgument</dt>
+<dd>The <code class="docutils literal notranslate"><span class="pre">files</span></code> list is not of the appropriate size or
+you specified both <code class="docutils literal notranslate"><span class="pre">file</span></code> and <code class="docutils literal notranslate"><span class="pre">files</span></code>.</dd>
+</dl>
+<dl class="docutils">
+<dt><code class="xref py py-class docutils literal notranslate"><span class="pre">Message</span></code></dt>
+<dd>The message that was sent.</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="exception">
+<dt id="dozer.bot.InvalidContext">
+<em class="property">exception </em><code class="descclassname">dozer.bot.</code><code class="descname">InvalidContext</code><span class="sig-paren">(</span><em>message=None</em>, <em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.bot.InvalidContext" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">discord.ext.commands.errors.CheckFailure</span></code></p>
+<p>Check failure raised by the global check for an invalid command context - executed by a bot, exceeding global rate-limit, etc.
+The message will be ignored.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-dozer.db">
+<span id="dozer-db-module"></span><h2>dozer.db module<a class="headerlink" href="#module-dozer.db" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.db.DatabaseObject">
+<em class="property">class </em><code class="descclassname">dozer.db.</code><code class="descname">DatabaseObject</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.DatabaseObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>The most base type</p>
+<dl class="attribute">
+<dt id="dozer.db.DatabaseObject.metadata">
+<code class="descname">metadata</code><em class="property"> = MetaData(bind=Engine(sqlite:///dozer.db))</em><a class="headerlink" href="#dozer.db.DatabaseObject.metadata" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.db.Column">
+<em class="property">class </em><code class="descclassname">dozer.db.</code><code class="descname">Column</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Column" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.schema.SchemaItem</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.elements.ColumnClause</span></code></p>
+<p>Represents a column in a database table.</p>
+<dl class="method">
+<dt id="dozer.db.Column.append_foreign_key">
+<code class="descname">append_foreign_key</code><span class="sig-paren">(</span><em>fk</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Column.append_foreign_key" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.Column.copy">
+<code class="descname">copy</code><span class="sig-paren">(</span><em>**kw</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Column.copy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a copy of this <code class="docutils literal notranslate"><span class="pre">Column</span></code>, unitialized.</p>
+<p>This is used in <code class="docutils literal notranslate"><span class="pre">Table.tometadata</span></code>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.Column.get_children">
+<code class="descname">get_children</code><span class="sig-paren">(</span><em>schema_visitor=False</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Column.get_children" title="Permalink to this definition">¶</a></dt>
+<dd><p>used to allow SchemaVisitor access</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.Column.references">
+<code class="descname">references</code><span class="sig-paren">(</span><em>column</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Column.references" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return True if this Column references the given column via foreign
+key.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.db.Integer">
+<em class="property">class </em><code class="descclassname">dozer.db.</code><code class="descname">Integer</code><a class="headerlink" href="#dozer.db.Integer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.sqltypes._LookupExpressionAdapter</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.type_api.TypeEngine</span></code></p>
+<p>A type for <code class="docutils literal notranslate"><span class="pre">int</span></code> integers.</p>
+<dl class="method">
+<dt id="dozer.db.Integer.get_dbapi_type">
+<code class="descname">get_dbapi_type</code><span class="sig-paren">(</span><em>dbapi</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Integer.get_dbapi_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the corresponding type object from the underlying DB-API, if
+any.</p>
+<blockquote>
+<div>This can be useful for calling <code class="docutils literal notranslate"><span class="pre">setinputsizes()</span></code>, for example.</div></blockquote>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.Integer.literal_processor">
+<code class="descname">literal_processor</code><span class="sig-paren">(</span><em>dialect</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Integer.literal_processor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a conversion function for processing literal values that are
+to be rendered directly without using binds.</p>
+<p>This function is used when the compiler makes use of the
+“literal_binds” flag, typically used in DDL generation as well
+as in certain scenarios where backends don’t accept bound parameters.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.db.Integer.python_type">
+<code class="descname">python_type</code><a class="headerlink" href="#dozer.db.Integer.python_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the Python type object expected to be returned
+by instances of this type, if known.</p>
+<p>Basically, for those types which enforce a return type,
+or are known across the board to do such for all common
+DBAPIs (like <code class="docutils literal notranslate"><span class="pre">int</span></code> for example), will return that type.</p>
+<p>If a return type is not defined, raises
+<code class="docutils literal notranslate"><span class="pre">NotImplementedError</span></code>.</p>
+<p>Note that any type also accommodates NULL in SQL which
+means you can also get back <code class="docutils literal notranslate"><span class="pre">None</span></code> from any type
+in practice.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.db.String">
+<em class="property">class </em><code class="descclassname">dozer.db.</code><code class="descname">String</code><span class="sig-paren">(</span><em>length=None</em>, <em>collation=None</em>, <em>convert_unicode=False</em>, <em>unicode_error=None</em>, <em>_warn_on_bytestring=False</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.String" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.sqltypes.Concatenable</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.type_api.TypeEngine</span></code></p>
+<p>The base for all string and character types.</p>
+<p>In SQL, corresponds to VARCHAR.  Can also take Python unicode objects
+and encode to the database’s encoding in bind params (and the reverse for
+result sets.)</p>
+<p>The <cite>length</cite> field is usually required when the <cite>String</cite> type is
+used within a CREATE TABLE statement, as VARCHAR requires a length
+on most databases.</p>
+<dl class="method">
+<dt id="dozer.db.String.bind_processor">
+<code class="descname">bind_processor</code><span class="sig-paren">(</span><em>dialect</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.String.bind_processor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a conversion function for processing bind values.</p>
+<p>Returns a callable which will receive a bind parameter value
+as the sole positional argument and will return a value to
+send to the DB-API.</p>
+<p>If processing is not necessary, the method should return <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>dialect</strong> – Dialect instance in use.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.String.get_dbapi_type">
+<code class="descname">get_dbapi_type</code><span class="sig-paren">(</span><em>dbapi</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.String.get_dbapi_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the corresponding type object from the underlying DB-API, if
+any.</p>
+<blockquote>
+<div>This can be useful for calling <code class="docutils literal notranslate"><span class="pre">setinputsizes()</span></code>, for example.</div></blockquote>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.String.literal_processor">
+<code class="descname">literal_processor</code><span class="sig-paren">(</span><em>dialect</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.String.literal_processor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a conversion function for processing literal values that are
+to be rendered directly without using binds.</p>
+<p>This function is used when the compiler makes use of the
+“literal_binds” flag, typically used in DDL generation as well
+as in certain scenarios where backends don’t accept bound parameters.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.db.String.python_type">
+<code class="descname">python_type</code><a class="headerlink" href="#dozer.db.String.python_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the Python type object expected to be returned
+by instances of this type, if known.</p>
+<p>Basically, for those types which enforce a return type,
+or are known across the board to do such for all common
+DBAPIs (like <code class="docutils literal notranslate"><span class="pre">int</span></code> for example), will return that type.</p>
+<p>If a return type is not defined, raises
+<code class="docutils literal notranslate"><span class="pre">NotImplementedError</span></code>.</p>
+<p>Note that any type also accommodates NULL in SQL which
+means you can also get back <code class="docutils literal notranslate"><span class="pre">None</span></code> from any type
+in practice.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.String.result_processor">
+<code class="descname">result_processor</code><span class="sig-paren">(</span><em>dialect</em>, <em>coltype</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.String.result_processor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a conversion function for processing result row values.</p>
+<p>Returns a callable which will receive a result row column
+value as the sole positional argument and will return a value
+to return to the user.</p>
+<p>If processing is not necessary, the method should return <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>dialect</strong> – Dialect instance in use.</li>
+<li><strong>coltype</strong> – DBAPI coltype argument received in cursor.description.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.db.ForeignKey">
+<em class="property">class </em><code class="descclassname">dozer.db.</code><code class="descname">ForeignKey</code><span class="sig-paren">(</span><em>column</em>, <em>_constraint=None</em>, <em>use_alter=False</em>, <em>name=None</em>, <em>onupdate=None</em>, <em>ondelete=None</em>, <em>deferrable=None</em>, <em>initially=None</em>, <em>link_to_name=False</em>, <em>match=None</em>, <em>info=None</em>, <em>**dialect_kw</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.ForeignKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.base.DialectKWArgs</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.schema.SchemaItem</span></code></p>
+<p>Defines a dependency between two columns.</p>
+<p><code class="docutils literal notranslate"><span class="pre">ForeignKey</span></code> is specified as an argument to a <a class="reference internal" href="#dozer.db.Column" title="dozer.db.Column"><code class="xref py py-class docutils literal notranslate"><span class="pre">Column</span></code></a> object,
+e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="s2">&quot;remote_table&quot;</span><span class="p">,</span> <span class="n">metadata</span><span class="p">,</span>
+    <span class="n">Column</span><span class="p">(</span><span class="s2">&quot;remote_id&quot;</span><span class="p">,</span> <span class="n">ForeignKey</span><span class="p">(</span><span class="s2">&quot;main_table.id&quot;</span><span class="p">))</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Note that <code class="docutils literal notranslate"><span class="pre">ForeignKey</span></code> is only a marker object that defines
+a dependency between two columns.   The actual constraint
+is in all cases represented by the <code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKeyConstraint</span></code>
+object.   This object will be generated automatically when
+a <code class="docutils literal notranslate"><span class="pre">ForeignKey</span></code> is associated with a <a class="reference internal" href="#dozer.db.Column" title="dozer.db.Column"><code class="xref py py-class docutils literal notranslate"><span class="pre">Column</span></code></a> which
+in turn is associated with a <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>.   Conversely,
+when <code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKeyConstraint</span></code> is applied to a <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>,
+<code class="docutils literal notranslate"><span class="pre">ForeignKey</span></code> markers are automatically generated to be
+present on each associated <a class="reference internal" href="#dozer.db.Column" title="dozer.db.Column"><code class="xref py py-class docutils literal notranslate"><span class="pre">Column</span></code></a>, which are also
+associated with the constraint object.</p>
+<p>Note that you cannot define a “composite” foreign key constraint,
+that is a constraint between a grouping of multiple parent/child
+columns, using <code class="docutils literal notranslate"><span class="pre">ForeignKey</span></code> objects.   To define this grouping,
+the <code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKeyConstraint</span></code> object must be used, and applied
+to the <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>.   The associated <code class="docutils literal notranslate"><span class="pre">ForeignKey</span></code> objects
+are created automatically.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">ForeignKey</span></code> objects associated with an individual
+<a class="reference internal" href="#dozer.db.Column" title="dozer.db.Column"><code class="xref py py-class docutils literal notranslate"><span class="pre">Column</span></code></a> object are available in the <cite>foreign_keys</cite> collection
+of that column.</p>
+<p>Further examples of foreign key configuration are in
+<span class="xref std std-ref">metadata_foreignkeys</span>.</p>
+<dl class="attribute">
+<dt id="dozer.db.ForeignKey.column">
+<code class="descname">column</code><a class="headerlink" href="#dozer.db.ForeignKey.column" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the target <a class="reference internal" href="#dozer.db.Column" title="dozer.db.Column"><code class="xref py py-class docutils literal notranslate"><span class="pre">Column</span></code></a> referenced by this
+<a class="reference internal" href="#dozer.db.ForeignKey" title="dozer.db.ForeignKey"><code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKey</span></code></a>.</p>
+<p>If no target column has been established, an exception
+is raised.</p>
+<div class="versionchanged">
+<p><span class="versionmodified">Changed in version 0.9.0: </span>Foreign key target column resolution now occurs as soon as both
+the ForeignKey object and the remote Column to which it refers
+are both associated with the same MetaData object.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.ForeignKey.copy">
+<code class="descname">copy</code><span class="sig-paren">(</span><em>schema=None</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.ForeignKey.copy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Produce a copy of this <a class="reference internal" href="#dozer.db.ForeignKey" title="dozer.db.ForeignKey"><code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKey</span></code></a> object.</p>
+<p>The new <a class="reference internal" href="#dozer.db.ForeignKey" title="dozer.db.ForeignKey"><code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKey</span></code></a> will not be bound
+to any <a class="reference internal" href="#dozer.db.Column" title="dozer.db.Column"><code class="xref py py-class docutils literal notranslate"><span class="pre">Column</span></code></a>.</p>
+<p>This method is usually used by the internal
+copy procedures of <a class="reference internal" href="#dozer.db.Column" title="dozer.db.Column"><code class="xref py py-class docutils literal notranslate"><span class="pre">Column</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>,
+and <code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>schema</strong> – The returned <a class="reference internal" href="#dozer.db.ForeignKey" title="dozer.db.ForeignKey"><code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKey</span></code></a> will
+reference the original table and column name, qualified
+by the given string schema name.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.ForeignKey.get_referent">
+<code class="descname">get_referent</code><span class="sig-paren">(</span><em>table</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.ForeignKey.get_referent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the <a class="reference internal" href="#dozer.db.Column" title="dozer.db.Column"><code class="xref py py-class docutils literal notranslate"><span class="pre">Column</span></code></a> in the given <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>
+referenced by this <a class="reference internal" href="#dozer.db.ForeignKey" title="dozer.db.ForeignKey"><code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKey</span></code></a>.</p>
+<p>Returns None if this <a class="reference internal" href="#dozer.db.ForeignKey" title="dozer.db.ForeignKey"><code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKey</span></code></a> does not reference the given
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.ForeignKey.references">
+<code class="descname">references</code><span class="sig-paren">(</span><em>table</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.ForeignKey.references" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return True if the given <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code> is referenced by this
+<a class="reference internal" href="#dozer.db.ForeignKey" title="dozer.db.ForeignKey"><code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKey</span></code></a>.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.db.ForeignKey.target_fullname">
+<code class="descname">target_fullname</code><a class="headerlink" href="#dozer.db.ForeignKey.target_fullname" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a string based ‘column specification’ for this
+<a class="reference internal" href="#dozer.db.ForeignKey" title="dozer.db.ForeignKey"><code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKey</span></code></a>.</p>
+<p>This is usually the equivalent of the string-based “tablename.colname”
+argument first passed to the object’s constructor.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.db.relationship">
+<code class="descclassname">dozer.db.</code><code class="descname">relationship</code><span class="sig-paren">(</span><em>argument</em>, <em>secondary=None</em>, <em>primaryjoin=None</em>, <em>secondaryjoin=None</em>, <em>foreign_keys=None</em>, <em>uselist=None</em>, <em>order_by=False</em>, <em>backref=None</em>, <em>back_populates=None</em>, <em>post_update=False</em>, <em>cascade=False</em>, <em>extension=None</em>, <em>viewonly=False</em>, <em>lazy='select'</em>, <em>collection_class=None</em>, <em>passive_deletes=False</em>, <em>passive_updates=True</em>, <em>remote_side=None</em>, <em>enable_typechecks=True</em>, <em>join_depth=None</em>, <em>comparator_factory=None</em>, <em>single_parent=False</em>, <em>innerjoin=False</em>, <em>distinct_target_key=None</em>, <em>doc=None</em>, <em>active_history=False</em>, <em>cascade_backrefs=True</em>, <em>load_on_pending=False</em>, <em>bake_queries=True</em>, <em>_local_remote_pairs=None</em>, <em>query_class=None</em>, <em>info=None</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.relationship" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provide a relationship between two mapped classes.</p>
+<p>This corresponds to a parent-child or associative table relationship.
+The constructed class is an instance of
+<code class="xref py py-class docutils literal notranslate"><span class="pre">RelationshipProperty</span></code>.</p>
+<p>A typical <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a>, used in a classical mapping:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mapper</span><span class="p">(</span><span class="n">Parent</span><span class="p">,</span> <span class="n">properties</span><span class="o">=</span><span class="p">{</span>
+  <span class="s1">&#39;children&#39;</span><span class="p">:</span> <span class="n">relationship</span><span class="p">(</span><span class="n">Child</span><span class="p">)</span>
+<span class="p">})</span>
+</pre></div>
+</div>
+<p>Some arguments accepted by <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> optionally accept a
+callable function, which when called produces the desired value.
+The callable is invoked by the parent <code class="xref py py-class docutils literal notranslate"><span class="pre">Mapper</span></code> at “mapper
+initialization” time, which happens only when mappers are first used,
+and is assumed to be after all mappings have been constructed.  This
+can be used to resolve order-of-declaration and other dependency
+issues, such as if <code class="docutils literal notranslate"><span class="pre">Child</span></code> is declared below <code class="docutils literal notranslate"><span class="pre">Parent</span></code> in the same
+file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mapper</span><span class="p">(</span><span class="n">Parent</span><span class="p">,</span> <span class="n">properties</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;children&quot;</span><span class="p">:</span><span class="n">relationship</span><span class="p">(</span><span class="k">lambda</span><span class="p">:</span> <span class="n">Child</span><span class="p">,</span>
+                        <span class="n">order_by</span><span class="o">=</span><span class="k">lambda</span><span class="p">:</span> <span class="n">Child</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+<span class="p">})</span>
+</pre></div>
+</div>
+<p>When using the <span class="xref std std-ref">declarative_toplevel</span> extension, the Declarative
+initializer allows string arguments to be passed to
+<a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a>.  These string arguments are converted into
+callables that evaluate the string as Python code, using the
+Declarative class-registry as a namespace.  This allows the lookup of
+related classes to be automatic via their string name, and removes the
+need to import related classes at all into the local module space:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sqlalchemy.ext.declarative</span> <span class="k">import</span> <span class="n">declarative_base</span>
+
+<span class="n">Base</span> <span class="o">=</span> <span class="n">declarative_base</span><span class="p">()</span>
+
+<span class="k">class</span> <span class="nc">Parent</span><span class="p">(</span><span class="n">Base</span><span class="p">):</span>
+    <span class="n">__tablename__</span> <span class="o">=</span> <span class="s1">&#39;parent&#39;</span>
+    <span class="nb">id</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">Integer</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">children</span> <span class="o">=</span> <span class="n">relationship</span><span class="p">(</span><span class="s2">&quot;Child&quot;</span><span class="p">,</span> <span class="n">order_by</span><span class="o">=</span><span class="s2">&quot;Child.id&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><span class="xref std std-ref">relationship_config_toplevel</span> - Full introductory and
+reference documentation for <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a>.</p>
+<p class="last"><span class="xref std std-ref">orm_tutorial_relationship</span> - ORM tutorial introduction.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>argument</strong> – <p>a mapped class, or actual <code class="xref py py-class docutils literal notranslate"><span class="pre">Mapper</span></code> instance, representing
+the target of the relationship.</p>
+<p><a href="#id1"><span class="problematic" id="id2">:paramref:`~.relationship.argument`</span></a> may also be passed as a callable
+function which is evaluated at mapper initialization time, and may
+be passed as a Python-evaluable string when using Declarative.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">declarative_configuring_relationships</span> - further detail
+on relationship configuration when using Declarative.</p>
+</div>
+</li>
+<li><strong>secondary</strong> – <p>for a many-to-many relationship, specifies the intermediary
+table, and is typically an instance of <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>.
+In less common circumstances, the argument may also be specified
+as an <code class="xref py py-class docutils literal notranslate"><span class="pre">Alias</span></code> construct, or even a <code class="xref py py-class docutils literal notranslate"><span class="pre">Join</span></code> construct.</p>
+<p><a href="#id3"><span class="problematic" id="id4">:paramref:`~.relationship.secondary`</span></a> may
+also be passed as a callable function which is evaluated at
+mapper initialization time.  When using Declarative, it may also
+be a string argument noting the name of a <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code> that is
+present in the <code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code> collection associated with the
+parent-mapped <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>.</p>
+<p>The <a href="#id5"><span class="problematic" id="id6">:paramref:`~.relationship.secondary`</span></a> keyword argument is
+typically applied in the case where the intermediary <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>
+is not otherwise expressed in any direct class mapping. If the
+“secondary” table is also explicitly mapped elsewhere (e.g. as in
+<span class="xref std std-ref">association_pattern</span>), one should consider applying the
+<a href="#id7"><span class="problematic" id="id8">:paramref:`~.relationship.viewonly`</span></a> flag so that this
+<a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> is not used for persistence operations which
+may conflict with those of the association object pattern.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><span class="xref std std-ref">relationships_many_to_many</span> - Reference example of “many
+to many”.</p>
+<p><span class="xref std std-ref">orm_tutorial_many_to_many</span> - ORM tutorial introduction to
+many-to-many relationships.</p>
+<p><span class="xref std std-ref">self_referential_many_to_many</span> - Specifics on using
+many-to-many in a self-referential case.</p>
+<p><span class="xref std std-ref">declarative_many_to_many</span> - Additional options when using
+Declarative.</p>
+<p><span class="xref std std-ref">association_pattern</span> - an alternative to
+<a href="#id9"><span class="problematic" id="id10">:paramref:`~.relationship.secondary`</span></a> when composing association
+table relationships, allowing additional attributes to be
+specified on the association table.</p>
+<p class="last"><span class="xref std std-ref">composite_secondary_join</span> - a lesser-used pattern which
+in some cases can enable complex <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> SQL
+conditions to be used.</p>
+</div>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.2: </span><a href="#id11"><span class="problematic" id="id12">:paramref:`~.relationship.secondary`</span></a> works
+more effectively when referring to a <code class="xref py py-class docutils literal notranslate"><span class="pre">Join</span></code> instance.</p>
+</div>
+</li>
+<li><strong>active_history=False</strong> – When <code class="docutils literal notranslate"><span class="pre">True</span></code>, indicates that the “previous” value for a
+many-to-one reference should be loaded when replaced, if
+not already loaded. Normally, history tracking logic for
+simple many-to-ones only needs to be aware of the “new”
+value in order to perform a flush. This flag is available
+for applications that make use of
+<code class="xref py py-func docutils literal notranslate"><span class="pre">attributes.get_history()</span></code> which also need to know
+the “previous” value of the attribute.</li>
+<li><strong>backref</strong> – <p>indicates the string name of a property to be placed on the related
+mapper’s class that will handle this relationship in the other
+direction. The other property will be created automatically
+when the mappers are configured.  Can also be passed as a
+<code class="xref py py-func docutils literal notranslate"><span class="pre">backref()</span></code> object to control the configuration of the
+new relationship.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><span class="xref std std-ref">relationships_backref</span> - Introductory documentation and
+examples.</p>
+<p><a href="#id13"><span class="problematic" id="id14">:paramref:`~.relationship.back_populates`</span></a> - alternative form
+of backref specification.</p>
+<p class="last"><code class="xref py py-func docutils literal notranslate"><span class="pre">backref()</span></code> - allows control over <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a>
+configuration when using <a href="#id15"><span class="problematic" id="id16">:paramref:`~.relationship.backref`</span></a>.</p>
+</div>
+</li>
+<li><strong>back_populates</strong> – <p>Takes a string name and has the same meaning as
+<a href="#id17"><span class="problematic" id="id18">:paramref:`~.relationship.backref`</span></a>, except the complementing
+property is <strong>not</strong> created automatically, and instead must be
+configured explicitly on the other mapper.  The complementing
+property should also indicate
+<a href="#id19"><span class="problematic" id="id20">:paramref:`~.relationship.back_populates`</span></a> to this relationship to
+ensure proper functioning.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><span class="xref std std-ref">relationships_backref</span> - Introductory documentation and
+examples.</p>
+<p class="last"><a href="#id21"><span class="problematic" id="id22">:paramref:`~.relationship.backref`</span></a> - alternative form
+of backref specification.</p>
+</div>
+</li>
+<li><strong>bake_queries=True</strong> – <p>Use the <code class="xref py py-class docutils literal notranslate"><span class="pre">BakedQuery</span></code> cache to cache the construction of SQL
+used in lazy loads.  True by default.   Set to False if the
+join condition of the relationship has unusual features that
+might not respond well to statement caching.</p>
+<div class="versionchanged">
+<p><span class="versionmodified">Changed in version 1.2: </span>“Baked” loading is the default implementation for the “select”,
+a.k.a. “lazy” loading strategy for relationships.</p>
+</div>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.0.</span></p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">baked_toplevel</span></p>
+</div>
+</li>
+<li><strong>cascade</strong> – <p>a comma-separated list of cascade rules which determines how
+Session operations should be “cascaded” from parent to child.
+This defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>, which means the default cascade
+should be used - this default cascade is <code class="docutils literal notranslate"><span class="pre">&quot;save-update,</span> <span class="pre">merge&quot;</span></code>.</p>
+<p>The available cascades are <code class="docutils literal notranslate"><span class="pre">save-update</span></code>, <code class="docutils literal notranslate"><span class="pre">merge</span></code>,
+<code class="docutils literal notranslate"><span class="pre">expunge</span></code>, <code class="docutils literal notranslate"><span class="pre">delete</span></code>, <code class="docutils literal notranslate"><span class="pre">delete-orphan</span></code>, and <code class="docutils literal notranslate"><span class="pre">refresh-expire</span></code>.
+An additional option, <code class="docutils literal notranslate"><span class="pre">all</span></code> indicates shorthand for
+<code class="docutils literal notranslate"><span class="pre">&quot;save-update,</span> <span class="pre">merge,</span> <span class="pre">refresh-expire,</span>
+<span class="pre">expunge,</span> <span class="pre">delete&quot;</span></code>, and is often used as in <code class="docutils literal notranslate"><span class="pre">&quot;all,</span> <span class="pre">delete-orphan&quot;</span></code>
+to indicate that related objects should follow along with the
+parent object in all cases, and be deleted when de-associated.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><span class="xref std std-ref">unitofwork_cascades</span> - Full detail on each of the available
+cascade options.</p>
+<p class="last"><span class="xref std std-ref">tutorial_delete_cascade</span> - Tutorial example describing
+a delete cascade.</p>
+</div>
+</li>
+<li><strong>cascade_backrefs=True</strong> – <p>a boolean value indicating if the <code class="docutils literal notranslate"><span class="pre">save-update</span></code> cascade should
+operate along an assignment event intercepted by a backref.
+When set to <code class="docutils literal notranslate"><span class="pre">False</span></code>, the attribute managed by this relationship
+will not cascade an incoming transient object into the session of a
+persistent parent, if the event is received via backref.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">backref_cascade</span> - Full discussion and examples on how
+the <a href="#id23"><span class="problematic" id="id24">:paramref:`~.relationship.cascade_backrefs`</span></a> option is used.</p>
+</div>
+</li>
+<li><strong>collection_class</strong> – <p>a class or callable that returns a new list-holding object. will
+be used in place of a plain list for storing elements.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">custom_collections</span> - Introductory documentation and
+examples.</p>
+</div>
+</li>
+<li><strong>comparator_factory</strong> – <p>a class which extends <code class="xref py py-class docutils literal notranslate"><span class="pre">RelationshipProperty.Comparator</span></code>
+which provides custom SQL clause generation for comparison
+operations.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><code class="xref py py-class docutils literal notranslate"><span class="pre">PropComparator</span></code> - some detail on redefining comparators
+at this level.</p>
+<p class="last"><span class="xref std std-ref">custom_comparators</span> - Brief intro to this feature.</p>
+</div>
+</li>
+<li><strong>distinct_target_key=None</strong> – <p>Indicate if a “subquery” eager load should apply the DISTINCT
+keyword to the innermost SELECT statement.  When left as <code class="docutils literal notranslate"><span class="pre">None</span></code>,
+the DISTINCT keyword will be applied in those cases when the target
+columns do not comprise the full primary key of the target table.
+When set to <code class="docutils literal notranslate"><span class="pre">True</span></code>, the DISTINCT keyword is applied to the
+innermost SELECT unconditionally.</p>
+<p>It may be desirable to set this flag to False when the DISTINCT is
+reducing performance of the innermost subquery beyond that of what
+duplicate innermost rows may be causing.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.3: </span>-
+<a href="#id25"><span class="problematic" id="id26">:paramref:`~.relationship.distinct_target_key`</span></a> allows the
+subquery eager loader to apply a DISTINCT modifier to the
+innermost SELECT.</p>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified">Changed in version 0.9.0: </span>-
+<a href="#id27"><span class="problematic" id="id28">:paramref:`~.relationship.distinct_target_key`</span></a> now defaults to
+<code class="docutils literal notranslate"><span class="pre">None</span></code>, so that the feature enables itself automatically for
+those cases where the innermost query targets a non-unique
+key.</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">loading_toplevel</span> - includes an introduction to subquery
+eager loading.</p>
+</div>
+</li>
+<li><strong>doc</strong> – docstring which will be applied to the resulting descriptor.</li>
+<li><strong>extension</strong> – <p>an <code class="xref py py-class docutils literal notranslate"><span class="pre">AttributeExtension</span></code> instance, or list of extensions,
+which will be prepended to the list of attribute listeners for
+the resulting descriptor placed on the class.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.7: </span>Please see <code class="xref py py-class docutils literal notranslate"><span class="pre">AttributeEvents</span></code>.</p>
+</div>
+</li>
+<li><strong>foreign_keys</strong> – <p>a list of columns which are to be used as “foreign key”
+columns, or columns which refer to the value in a remote
+column, within the context of this <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a>
+object’s <a href="#id29"><span class="problematic" id="id30">:paramref:`~.relationship.primaryjoin`</span></a> condition.
+That is, if the <a href="#id31"><span class="problematic" id="id32">:paramref:`~.relationship.primaryjoin`</span></a>
+condition of this <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> is <code class="docutils literal notranslate"><span class="pre">a.id</span> <span class="pre">==</span>
+<span class="pre">b.a_id</span></code>, and the values in <code class="docutils literal notranslate"><span class="pre">b.a_id</span></code> are required to be
+present in <code class="docutils literal notranslate"><span class="pre">a.id</span></code>, then the “foreign key” column of this
+<a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> is <code class="docutils literal notranslate"><span class="pre">b.a_id</span></code>.</p>
+<p>In normal cases, the <a href="#id33"><span class="problematic" id="id34">:paramref:`~.relationship.foreign_keys`</span></a>
+parameter is <strong>not required.</strong> <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> will
+automatically determine which columns in the
+<a href="#id35"><span class="problematic" id="id36">:paramref:`~.relationship.primaryjoin`</span></a> conditition are to be
+considered “foreign key” columns based on those
+<a class="reference internal" href="#dozer.db.Column" title="dozer.db.Column"><code class="xref py py-class docutils literal notranslate"><span class="pre">Column</span></code></a> objects that specify <a class="reference internal" href="#dozer.db.ForeignKey" title="dozer.db.ForeignKey"><code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKey</span></code></a>,
+or are otherwise listed as referencing columns in a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKeyConstraint</span></code> construct.
+<a href="#id37"><span class="problematic" id="id38">:paramref:`~.relationship.foreign_keys`</span></a> is only needed when:</p>
+<blockquote>
+<div><ol class="arabic">
+<li>There is more than one way to construct a join from the local
+table to the remote table, as there are multiple foreign key
+references present.  Setting <code class="docutils literal notranslate"><span class="pre">foreign_keys</span></code> will limit the
+<a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> to consider just those columns specified
+here as “foreign”.<div class="versionchanged">
+<p><span class="versionmodified">Changed in version 0.8: </span>A multiple-foreign key join ambiguity can be resolved by
+setting the <a href="#id39"><span class="problematic" id="id40">:paramref:`~.relationship.foreign_keys`</span></a>
+parameter alone, without the need to explicitly set
+<a href="#id41"><span class="problematic" id="id42">:paramref:`~.relationship.primaryjoin`</span></a> as well.</p>
+</div>
+</li>
+<li>The <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code> being mapped does not actually have
+<a class="reference internal" href="#dozer.db.ForeignKey" title="dozer.db.ForeignKey"><code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKey</span></code></a> or <code class="xref py py-class docutils literal notranslate"><span class="pre">ForeignKeyConstraint</span></code>
+constructs present, often because the table
+was reflected from a database that does not support foreign key
+reflection (MySQL MyISAM).</li>
+<li>The <a href="#id43"><span class="problematic" id="id44">:paramref:`~.relationship.primaryjoin`</span></a> argument is used to
+construct a non-standard join condition, which makes use of
+columns or expressions that do not normally refer to their
+“parent” column, such as a join condition expressed by a
+complex comparison using a SQL function.</li>
+</ol>
+</div></blockquote>
+<p>The <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> construct will raise informative
+error messages that suggest the use of the
+<a href="#id45"><span class="problematic" id="id46">:paramref:`~.relationship.foreign_keys`</span></a> parameter when
+presented with an ambiguous condition.   In typical cases,
+if <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> doesn’t raise any exceptions, the
+<a href="#id47"><span class="problematic" id="id48">:paramref:`~.relationship.foreign_keys`</span></a> parameter is usually
+not needed.</p>
+<p><a href="#id49"><span class="problematic" id="id50">:paramref:`~.relationship.foreign_keys`</span></a> may also be passed as a
+callable function which is evaluated at mapper initialization time,
+and may be passed as a Python-evaluable string when using
+Declarative.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><span class="xref std std-ref">relationship_foreign_keys</span></p>
+<p><span class="xref std std-ref">relationship_custom_foreign</span></p>
+<p class="last"><code class="xref py py-func docutils literal notranslate"><span class="pre">foreign()</span></code> - allows direct annotation of the “foreign”
+columns within a <a href="#id51"><span class="problematic" id="id52">:paramref:`~.relationship.primaryjoin`</span></a> condition.</p>
+</div>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8: </span>The <code class="xref py py-func docutils literal notranslate"><span class="pre">foreign()</span></code> annotation can also be applied
+directly to the <a href="#id53"><span class="problematic" id="id54">:paramref:`~.relationship.primaryjoin`</span></a>
+expression, which is an alternate, more specific system of
+describing which columns in a particular
+<a href="#id55"><span class="problematic" id="id56">:paramref:`~.relationship.primaryjoin`</span></a> should be considered
+“foreign”.</p>
+</div>
+</li>
+<li><strong>info</strong> – <p>Optional data dictionary which will be populated into the
+<code class="xref py py-attr docutils literal notranslate"><span class="pre">MapperProperty.info</span></code> attribute of this object.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+</li>
+<li><strong>innerjoin=False</strong> – <p>when <code class="docutils literal notranslate"><span class="pre">True</span></code>, joined eager loads will use an inner join to join
+against related tables instead of an outer join.  The purpose
+of this option is generally one of performance, as inner joins
+generally perform better than outer joins.</p>
+<p>This flag can be set to <code class="docutils literal notranslate"><span class="pre">True</span></code> when the relationship references an
+object via many-to-one using local foreign keys that are not
+nullable, or when the reference is one-to-one or a collection that
+is guaranteed to have one or at least one entry.</p>
+<p>The option supports the same “nested” and “unnested” options as
+that of <a href="#id57"><span class="problematic" id="id58">:paramref:`.joinedload.innerjoin`</span></a>.  See that flag
+for details on nested / unnested behaviors.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><a href="#id59"><span class="problematic" id="id60">:paramref:`.joinedload.innerjoin`</span></a> - the option as specified by
+loader option, including detail on nesting behavior.</p>
+<p class="last"><span class="xref std std-ref">what_kind_of_loading</span> - Discussion of some details of
+various loader options.</p>
+</div>
+</li>
+<li><strong>join_depth</strong> – <p>when non-<code class="docutils literal notranslate"><span class="pre">None</span></code>, an integer value indicating how many levels
+deep “eager” loaders should join on a self-referring or cyclical
+relationship.  The number counts how many times the same Mapper
+shall be present in the loading condition along a particular join
+branch.  When left at its default of <code class="docutils literal notranslate"><span class="pre">None</span></code>, eager loaders
+will stop chaining when they encounter a the same target mapper
+which is already higher up in the chain.  This option applies
+both to joined- and subquery- eager loaders.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">self_referential_eager_loading</span> - Introductory documentation
+and examples.</p>
+</div>
+</li>
+<li><strong>lazy='select'</strong> – <p>specifies
+how the related items should be loaded.  Default value is
+<code class="docutils literal notranslate"><span class="pre">select</span></code>.  Values include:</p>
+<ul>
+<li><code class="docutils literal notranslate"><span class="pre">select</span></code> - items should be loaded lazily when the property is
+first accessed, using a separate SELECT statement, or identity map
+fetch for simple many-to-one references.</li>
+<li><code class="docutils literal notranslate"><span class="pre">immediate</span></code> - items should be loaded as the parents are loaded,
+using a separate SELECT statement, or identity map fetch for
+simple many-to-one references.</li>
+<li><code class="docutils literal notranslate"><span class="pre">joined</span></code> - items should be loaded “eagerly” in the same query as
+that of the parent, using a JOIN or LEFT OUTER JOIN.  Whether
+the join is “outer” or not is determined by the
+<a href="#id61"><span class="problematic" id="id62">:paramref:`~.relationship.innerjoin`</span></a> parameter.</li>
+<li><code class="docutils literal notranslate"><span class="pre">subquery</span></code> - items should be loaded “eagerly” as the parents are
+loaded, using one additional SQL statement, which issues a JOIN to
+a subquery of the original statement, for each collection
+requested.</li>
+<li><code class="docutils literal notranslate"><span class="pre">selectin</span></code> - items should be loaded “eagerly” as the parents
+are loaded, using one or more additional SQL statements, which
+issues a JOIN to the immediate parent object, specifying primary
+key identifiers using an IN clause.<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+</li>
+<li><code class="docutils literal notranslate"><span class="pre">noload</span></code> - no loading should occur at any time.  This is to
+support “write-only” attributes, or attributes which are
+populated in some manner specific to the application.</li>
+<li><code class="docutils literal notranslate"><span class="pre">raise</span></code> - lazy loading is disallowed; accessing
+the attribute, if its value were not already loaded via eager
+loading, will raise an <code class="xref py py-exc docutils literal notranslate"><span class="pre">InvalidRequestError</span></code>.
+This strategy can be used when objects are to be detached from
+their attached <code class="xref py py-class docutils literal notranslate"><span class="pre">Session</span></code> after they are loaded.<div class="versionadded">
+<p><span class="versionmodified">New in version 1.1.</span></p>
+</div>
+</li>
+<li><code class="docutils literal notranslate"><span class="pre">raise_on_sql</span></code> - lazy loading that emits SQL is disallowed;
+accessing the attribute, if its value were not already loaded via
+eager loading, will raise an
+<code class="xref py py-exc docutils literal notranslate"><span class="pre">InvalidRequestError</span></code>, <strong>if the lazy load
+needs to emit SQL</strong>.  If the lazy load can pull the related value
+from the identity map or determine that it should be None, the
+value is loaded.  This strategy can be used when objects will
+remain associated with the attached <code class="xref py py-class docutils literal notranslate"><span class="pre">Session</span></code>, however
+additional SELECT statements should be blocked.<div class="versionadded">
+<p><span class="versionmodified">New in version 1.1.</span></p>
+</div>
+</li>
+<li><code class="docutils literal notranslate"><span class="pre">dynamic</span></code> - the attribute will return a pre-configured
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Query</span></code> object for all read
+operations, onto which further filtering operations can be
+applied before iterating the results.  See
+the section <span class="xref std std-ref">dynamic_relationship</span> for more details.</li>
+<li>True - a synonym for ‘select’</li>
+<li>False - a synonym for ‘joined’</li>
+<li>None - a synonym for ‘noload’</li>
+</ul>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><span class="xref std std-doc">/orm/loading_relationships</span> - Full documentation on relationship loader
+configuration.</p>
+<p><span class="xref std std-ref">dynamic_relationship</span> - detail on the <code class="docutils literal notranslate"><span class="pre">dynamic</span></code> option.</p>
+<p class="last"><span class="xref std std-ref">collections_noload_raiseload</span> - notes on “noload” and “raise”</p>
+</div>
+</li>
+<li><strong>load_on_pending=False</strong> – <p>Indicates loading behavior for transient or pending parent objects.</p>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">True</span></code>, causes the lazy-loader to
+issue a query for a parent object that is not persistent, meaning it
+has never been flushed.  This may take effect for a pending object
+when autoflush is disabled, or for a transient object that has been
+“attached” to a <code class="xref py py-class docutils literal notranslate"><span class="pre">Session</span></code> but is not part of its pending
+collection.</p>
+<p>The <a href="#id63"><span class="problematic" id="id64">:paramref:`~.relationship.load_on_pending`</span></a> flag does not improve
+behavior when the ORM is used normally - object references should be
+constructed at the object level, not at the foreign key level, so
+that they are present in an ordinary way before a flush proceeds.
+This flag is not not intended for general use.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><code class="xref py py-meth docutils literal notranslate"><span class="pre">Session.enable_relationship_loading()</span></code> - this method
+establishes “load on pending” behavior for the whole object, and
+also allows loading on objects that remain transient or
+detached.</p>
+</div>
+</li>
+<li><strong>order_by</strong> – <p>indicates the ordering that should be applied when loading these
+items.  <a href="#id65"><span class="problematic" id="id66">:paramref:`~.relationship.order_by`</span></a> is expected to refer to
+one of the <a class="reference internal" href="#dozer.db.Column" title="dozer.db.Column"><code class="xref py py-class docutils literal notranslate"><span class="pre">Column</span></code></a> objects to which the target class is
+mapped, or the attribute itself bound to the target class which
+refers to the column.</p>
+<p><a href="#id67"><span class="problematic" id="id68">:paramref:`~.relationship.order_by`</span></a> may also be passed as a callable
+function which is evaluated at mapper initialization time, and may
+be passed as a Python-evaluable string when using Declarative.</p>
+</li>
+<li><strong>passive_deletes=False</strong> – <p>Indicates loading behavior during delete operations.</p>
+<p>A value of True indicates that unloaded child items should not
+be loaded during a delete operation on the parent.  Normally,
+when a parent item is deleted, all child items are loaded so
+that they can either be marked as deleted, or have their
+foreign key to the parent set to NULL.  Marking this flag as
+True usually implies an ON DELETE &lt;CASCADE|SET NULL&gt; rule is in
+place which will handle updating/deleting child rows on the
+database side.</p>
+<p>Additionally, setting the flag to the string value ‘all’ will
+disable the “nulling out” of the child foreign keys, when the parent
+object is deleted and there is no delete or delete-orphan cascade
+enabled.  This is typically used when a triggering or error raise
+scenario is in place on the database side.  Note that the foreign
+key attributes on in-session child objects will not be changed after
+a flush occurs so this is a very special use-case setting.
+Additionally, the “nulling out” will still occur if the child
+object is de-associated with the parent.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">passive_deletes</span> - Introductory documentation
+and examples.</p>
+</div>
+</li>
+<li><strong>passive_updates=True</strong> – <p>Indicates the persistence behavior to take when a referenced
+primary key value changes in place, indicating that the referencing
+foreign key columns will also need their value changed.</p>
+<p>When True, it is assumed that <code class="docutils literal notranslate"><span class="pre">ON</span> <span class="pre">UPDATE</span> <span class="pre">CASCADE</span></code> is configured on
+the foreign key in the database, and that the database will
+handle propagation of an UPDATE from a source column to
+dependent rows.  When False, the SQLAlchemy <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a>
+construct will attempt to emit its own UPDATE statements to
+modify related targets.  However note that SQLAlchemy <strong>cannot</strong>
+emit an UPDATE for more than one level of cascade.  Also,
+setting this flag to False is not compatible in the case where
+the database is in fact enforcing referential integrity, unless
+those constraints are explicitly “deferred”, if the target backend
+supports it.</p>
+<p>It is highly advised that an application which is employing
+mutable primary keys keeps <code class="docutils literal notranslate"><span class="pre">passive_updates</span></code> set to True,
+and instead uses the referential integrity features of the database
+itself in order to handle the change efficiently and fully.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><span class="xref std std-ref">passive_updates</span> - Introductory documentation and
+examples.</p>
+<p class="last"><a href="#id69"><span class="problematic" id="id70">:paramref:`.mapper.passive_updates`</span></a> - a similar flag which
+takes effect for joined-table inheritance mappings.</p>
+</div>
+</li>
+<li><strong>post_update</strong> – <p>this indicates that the relationship should be handled by a
+second UPDATE statement after an INSERT or before a
+DELETE. Currently, it also will issue an UPDATE after the
+instance was UPDATEd as well, although this technically should
+be improved. This flag is used to handle saving bi-directional
+dependencies between two individual rows (i.e. each row
+references the other), where it would otherwise be impossible to
+INSERT or DELETE both rows fully since one row exists before the
+other. Use this flag when a particular mapping arrangement will
+incur two rows that are dependent on each other, such as a table
+that has a one-to-many relationship to a set of child rows, and
+also has a column that references a single child row within that
+list (i.e. both tables contain a foreign key to each other). If
+a flush operation returns an error that a “cyclical
+dependency” was detected, this is a cue that you might want to
+use <a href="#id71"><span class="problematic" id="id72">:paramref:`~.relationship.post_update`</span></a> to “break” the cycle.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">post_update</span> - Introductory documentation and examples.</p>
+</div>
+</li>
+<li><strong>primaryjoin</strong> – <p>a SQL expression that will be used as the primary
+join of this child object against the parent object, or in a
+many-to-many relationship the join of the primary object to the
+association table. By default, this value is computed based on the
+foreign key relationships of the parent and child tables (or
+association table).</p>
+<p><a href="#id73"><span class="problematic" id="id74">:paramref:`~.relationship.primaryjoin`</span></a> may also be passed as a
+callable function which is evaluated at mapper initialization time,
+and may be passed as a Python-evaluable string when using
+Declarative.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">relationship_primaryjoin</span></p>
+</div>
+</li>
+<li><strong>remote_side</strong> – <p>used for self-referential relationships, indicates the column or
+list of columns that form the “remote side” of the relationship.</p>
+<p><a href="#id75"><span class="problematic" id="id76">:paramref:`.relationship.remote_side`</span></a> may also be passed as a
+callable function which is evaluated at mapper initialization time,
+and may be passed as a Python-evaluable string when using
+Declarative.</p>
+<div class="versionchanged">
+<p><span class="versionmodified">Changed in version 0.8: </span>The <code class="xref py py-func docutils literal notranslate"><span class="pre">remote()</span></code> annotation can also be applied
+directly to the <code class="docutils literal notranslate"><span class="pre">primaryjoin</span></code> expression, which is an
+alternate, more specific system of describing which columns in a
+particular <code class="docutils literal notranslate"><span class="pre">primaryjoin</span></code> should be considered “remote”.</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p><span class="xref std std-ref">self_referential</span> - in-depth explanation of how
+<a href="#id77"><span class="problematic" id="id78">:paramref:`~.relationship.remote_side`</span></a>
+is used to configure self-referential relationships.</p>
+<p class="last"><code class="xref py py-func docutils literal notranslate"><span class="pre">remote()</span></code> - an annotation function that accomplishes the
+same purpose as <a href="#id79"><span class="problematic" id="id80">:paramref:`~.relationship.remote_side`</span></a>, typically
+when a custom <a href="#id81"><span class="problematic" id="id82">:paramref:`~.relationship.primaryjoin`</span></a> condition
+is used.</p>
+</div>
+</li>
+<li><strong>query_class</strong> – <p>a <code class="xref py py-class docutils literal notranslate"><span class="pre">Query</span></code> subclass that will be used as the base of the
+“appender query” returned by a “dynamic” relationship, that
+is, a relationship that specifies <code class="docutils literal notranslate"><span class="pre">lazy=&quot;dynamic&quot;</span></code> or was
+otherwise constructed using the <code class="xref py py-func docutils literal notranslate"><span class="pre">orm.dynamic_loader()</span></code>
+function.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">dynamic_relationship</span> - Introduction to “dynamic”
+relationship loaders.</p>
+</div>
+</li>
+<li><strong>secondaryjoin</strong> – <p>a SQL expression that will be used as the join of
+an association table to the child object. By default, this value is
+computed based on the foreign key relationships of the association
+and child tables.</p>
+<p><a href="#id83"><span class="problematic" id="id84">:paramref:`~.relationship.secondaryjoin`</span></a> may also be passed as a
+callable function which is evaluated at mapper initialization time,
+and may be passed as a Python-evaluable string when using
+Declarative.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">relationship_primaryjoin</span></p>
+</div>
+</li>
+<li><strong>single_parent</strong> – <p>when True, installs a validator which will prevent objects
+from being associated with more than one parent at a time.
+This is used for many-to-one or many-to-many relationships that
+should be treated either as one-to-one or one-to-many.  Its usage
+is optional, except for <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> constructs which
+are many-to-one or many-to-many and also
+specify the <code class="docutils literal notranslate"><span class="pre">delete-orphan</span></code> cascade option.  The
+<a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> construct itself will raise an error
+instructing when this option is required.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">unitofwork_cascades</span> - includes detail on when the
+<a href="#id85"><span class="problematic" id="id86">:paramref:`~.relationship.single_parent`</span></a> flag may be appropriate.</p>
+</div>
+</li>
+<li><strong>uselist</strong> – <p>a boolean that indicates if this property should be loaded as a
+list or a scalar. In most cases, this value is determined
+automatically by <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> at mapper configuration
+time, based on the type and direction
+of the relationship - one to many forms a list, many to one
+forms a scalar, many to many is a list. If a scalar is desired
+where normally a list would be present, such as a bi-directional
+one-to-one relationship, set <a href="#id87"><span class="problematic" id="id88">:paramref:`~.relationship.uselist`</span></a> to
+False.</p>
+<p>The <a href="#id89"><span class="problematic" id="id90">:paramref:`~.relationship.uselist`</span></a> flag is also available on an
+existing <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> construct as a read-only attribute,
+which can be used to determine if this <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> deals
+with collections or scalar attributes:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">User</span><span class="o">.</span><span class="n">addresses</span><span class="o">.</span><span class="n">property</span><span class="o">.</span><span class="n">uselist</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><span class="xref std std-ref">relationships_one_to_one</span> - Introduction to the “one to
+one” relationship pattern, which is typically when the
+<a href="#id91"><span class="problematic" id="id92">:paramref:`~.relationship.uselist`</span></a> flag is needed.</p>
+</div>
+</li>
+<li><strong>viewonly=False</strong> – when set to True, the relationship is used only for loading objects,
+and not for any persistence operation.  A <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a>
+which specifies <a href="#id93"><span class="problematic" id="id94">:paramref:`~.relationship.viewonly`</span></a> can work
+with a wider range of SQL operations within the
+<a href="#id95"><span class="problematic" id="id96">:paramref:`~.relationship.primaryjoin`</span></a> condition, including
+operations that feature the use of a variety of comparison operators
+as well as SQL functions such as <code class="xref py py-func docutils literal notranslate"><span class="pre">cast()</span></code>.  The
+<a href="#id97"><span class="problematic" id="id98">:paramref:`~.relationship.viewonly`</span></a> flag is also of general use when
+defining any kind of <a class="reference internal" href="#dozer.db.relationship" title="dozer.db.relationship"><code class="xref py py-func docutils literal notranslate"><span class="pre">relationship()</span></code></a> that doesn’t represent
+the full set of related objects, to prevent modifications of the
+collection from resulting in persistence operations.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.db.Boolean">
+<em class="property">class </em><code class="descclassname">dozer.db.</code><code class="descname">Boolean</code><span class="sig-paren">(</span><em>create_constraint=True</em>, <em>name=None</em>, <em>_create_events=True</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Boolean" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.type_api.Emulated</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.type_api.TypeEngine</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.sql.sqltypes.SchemaType</span></code></p>
+<p>A bool datatype.</p>
+<p><a class="reference internal" href="#dozer.db.Boolean" title="dozer.db.Boolean"><code class="xref py py-class docutils literal notranslate"><span class="pre">Boolean</span></code></a> typically uses BOOLEAN or SMALLINT on the DDL side, and on
+the Python side deals in <code class="docutils literal notranslate"><span class="pre">True</span></code> or <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<p>The <a class="reference internal" href="#dozer.db.Boolean" title="dozer.db.Boolean"><code class="xref py py-class docutils literal notranslate"><span class="pre">Boolean</span></code></a> datatype currently has two levels of assertion
+that the values persisted are simple true/false values.  For all
+backends, only the Python values <code class="docutils literal notranslate"><span class="pre">None</span></code>, <code class="docutils literal notranslate"><span class="pre">True</span></code>, <code class="docutils literal notranslate"><span class="pre">False</span></code>, <code class="docutils literal notranslate"><span class="pre">1</span></code>
+or <code class="docutils literal notranslate"><span class="pre">0</span></code> are accepted as parameter values.   For those backends that
+don’t support a “native boolean” datatype, a CHECK constraint is also
+created on the target column.   Production of the CHECK constraint
+can be disabled by passing the <a href="#id99"><span class="problematic" id="id100">:paramref:`.Boolean.create_constraint`</span></a>
+flag set to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<div class="versionchanged">
+<p><span class="versionmodified">Changed in version 1.2: </span>the <a class="reference internal" href="#dozer.db.Boolean" title="dozer.db.Boolean"><code class="xref py py-class docutils literal notranslate"><span class="pre">Boolean</span></code></a> datatype now asserts that
+incoming Python values are already in pure boolean form.</p>
+</div>
+<dl class="method">
+<dt id="dozer.db.Boolean.bind_processor">
+<code class="descname">bind_processor</code><span class="sig-paren">(</span><em>dialect</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Boolean.bind_processor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a conversion function for processing bind values.</p>
+<p>Returns a callable which will receive a bind parameter value
+as the sole positional argument and will return a value to
+send to the DB-API.</p>
+<p>If processing is not necessary, the method should return <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>dialect</strong> – Dialect instance in use.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.Boolean.literal_processor">
+<code class="descname">literal_processor</code><span class="sig-paren">(</span><em>dialect</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Boolean.literal_processor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a conversion function for processing literal values that are
+to be rendered directly without using binds.</p>
+<p>This function is used when the compiler makes use of the
+“literal_binds” flag, typically used in DDL generation as well
+as in certain scenarios where backends don’t accept bound parameters.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.db.Boolean.native">
+<code class="descname">native</code><em class="property"> = True</em><a class="headerlink" href="#dozer.db.Boolean.native" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.db.Boolean.python_type">
+<code class="descname">python_type</code><a class="headerlink" href="#dozer.db.Boolean.python_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the Python type object expected to be returned
+by instances of this type, if known.</p>
+<p>Basically, for those types which enforce a return type,
+or are known across the board to do such for all common
+DBAPIs (like <code class="docutils literal notranslate"><span class="pre">int</span></code> for example), will return that type.</p>
+<p>If a return type is not defined, raises
+<code class="docutils literal notranslate"><span class="pre">NotImplementedError</span></code>.</p>
+<p>Note that any type also accommodates NULL in SQL which
+means you can also get back <code class="docutils literal notranslate"><span class="pre">None</span></code> from any type
+in practice.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="dozer.db.Boolean.result_processor">
+<code class="descname">result_processor</code><span class="sig-paren">(</span><em>dialect</em>, <em>coltype</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.db.Boolean.result_processor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a conversion function for processing result row values.</p>
+<p>Returns a callable which will receive a result row column
+value as the sole positional argument and will return a value
+to return to the user.</p>
+<p>If processing is not necessary, the method should return <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>dialect</strong> – Dialect instance in use.</li>
+<li><strong>coltype</strong> – DBAPI coltype argument received in cursor.description.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-dozer.utils">
+<span id="dozer-utils-module"></span><h2>dozer.utils module<a class="headerlink" href="#module-dozer.utils" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="dozer.utils.clean">
+<code class="descclassname">dozer.utils.</code><code class="descname">clean</code><span class="sig-paren">(</span><em>ctx</em>, <em>text=None</em>, <em>*</em>, <em>mass=True</em>, <em>member=True</em>, <em>role=True</em>, <em>channel=True</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.utils.clean" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="dozer.utils.is_clean">
+<code class="descclassname">dozer.utils.</code><code class="descname">is_clean</code><span class="sig-paren">(</span><em>ctx</em>, <em>text=None</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.utils.is_clean" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-dozer" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">dozer package</a><ul>
+<li><a class="reference internal" href="#subpackages">Subpackages</a></li>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-dozer.bot">dozer.bot module</a></li>
+<li><a class="reference internal" href="#module-dozer.db">dozer.db module</a></li>
+<li><a class="reference internal" href="#module-dozer.utils">dozer.utils module</a></li>
+<li><a class="reference internal" href="#module-dozer">Module contents</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/dozer.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, endreman0, tweirtx, guineawheek, leopi, bkeeneykid, and others.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/dozer.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

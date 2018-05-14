@@ -1,0 +1,45 @@
+dozer package
+=============
+
+Subpackages
+-----------
+
+.. toctree::
+
+    dozer.cogs
+
+Submodules
+----------
+
+dozer.bot module
+----------------
+
+.. automodule:: dozer.bot
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+dozer.db module
+---------------
+
+.. automodule:: dozer.db
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+dozer.utils module
+------------------
+
+.. automodule:: dozer.utils
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: dozer
+    :members:
+    :undoc-members:
+    :show-inheritance:

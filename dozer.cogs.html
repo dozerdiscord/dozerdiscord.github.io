@@ -1,0 +1,1210 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>dozer.cogs package &#8212; Dozer 1.2.3 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="dozer-cogs-package">
+<h1>dozer.cogs package<a class="headerlink" href="#dozer-cogs-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-dozer.cogs.development">
+<span id="dozer-cogs-development-module"></span><h2>dozer.cogs.development module<a class="headerlink" href="#module-dozer.cogs.development" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.development.Development">
+<em class="property">class </em><code class="descclassname">dozer.cogs.development.</code><code class="descname">Development</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.development.Development" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<p>Commands useful for developing the bot.
+These commands are restricted to bot developers.</p>
+<dl class="attribute">
+<dt id="dozer.cogs.development.Development.eval_globals">
+<code class="descname">eval_globals</code><em class="property"> = {'__builtins__': &lt;module 'builtins' (built-in)&gt;, 'asyncio': &lt;module 'asyncio' from '/home/travis/.pyenv/versions/3.6.4/lib/python3.6/asyncio/__init__.py'&gt;, 'collections': &lt;module 'collections' from '/home/travis/.pyenv/versions/3.6.4/lib/python3.6/collections/__init__.py'&gt;, 'discord': &lt;module 'discord' from '/home/travis/.pyenv/versions/3.6.4/lib/python3.6/site-packages/discord/__init__.py'&gt;, 'inspect': &lt;module 'inspect' from '/home/travis/.pyenv/versions/3.6.4/lib/python3.6/inspect.py'&gt;, 'itertools': &lt;module 'itertools' (built-in)&gt;}</em><a class="headerlink" href="#dozer.cogs.development.Development.eval_globals" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.development.Development.evaluate">
+<code class="descname">evaluate</code><a class="headerlink" href="#dozer.cogs.development.Development.evaluate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.development.Development.module">
+<code class="descname">module</code><em class="property"> = 'itertools'</em><a class="headerlink" href="#dozer.cogs.development.Development.module" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.development.Development.pseudo">
+<code class="descname">pseudo</code><a class="headerlink" href="#dozer.cogs.development.Development.pseudo" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.development.Development.reload">
+<code class="descname">reload</code><a class="headerlink" href="#dozer.cogs.development.Development.reload" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.development.load_function">
+<code class="descclassname">dozer.cogs.development.</code><code class="descname">load_function</code><span class="sig-paren">(</span><em>code</em>, <em>globals_</em>, <em>locals_</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.development.load_function" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.development.setup">
+<code class="descclassname">dozer.cogs.development.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.development.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.fun">
+<span id="dozer-cogs-fun-module"></span><h2>dozer.cogs.fun module<a class="headerlink" href="#module-dozer.cogs.fun" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.fun.Fun">
+<em class="property">class </em><code class="descclassname">dozer.cogs.fun.</code><code class="descname">Fun</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.fun.Fun" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.fun.Fun.fight">
+<code class="descname">fight</code><a class="headerlink" href="#dozer.cogs.fun.Fun.fight" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.fun.setup">
+<code class="descclassname">dozer.cogs.fun.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.fun.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.general">
+<span id="dozer-cogs-general-module"></span><h2>dozer.cogs.general module<a class="headerlink" href="#module-dozer.cogs.general" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.general.General">
+<em class="property">class </em><code class="descclassname">dozer.cogs.general.</code><code class="descname">General</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.general.General" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<p>General commands common to all Discord bots.</p>
+<dl class="attribute">
+<dt id="dozer.cogs.general.General.base_help">
+<code class="descname">base_help</code><a class="headerlink" href="#dozer.cogs.general.General.base_help" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.general.General.invites">
+<code class="descname">invites</code><a class="headerlink" href="#dozer.cogs.general.General.invites" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.general.General.nick">
+<code class="descname">nick</code><a class="headerlink" href="#dozer.cogs.general.General.nick" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.general.General.ping">
+<code class="descname">ping</code><a class="headerlink" href="#dozer.cogs.general.General.ping" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.general.General.welcomeconfig">
+<code class="descname">welcomeconfig</code><a class="headerlink" href="#dozer.cogs.general.General.welcomeconfig" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.general.WelcomeChannel">
+<em class="property">class </em><code class="descclassname">dozer.cogs.general.</code><code class="descname">WelcomeChannel</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.general.WelcomeChannel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.general.WelcomeChannel.channel_id">
+<code class="descname">channel_id</code><a class="headerlink" href="#dozer.cogs.general.WelcomeChannel.channel_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.general.WelcomeChannel.id">
+<code class="descname">id</code><a class="headerlink" href="#dozer.cogs.general.WelcomeChannel.id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.general.setup">
+<code class="descclassname">dozer.cogs.general.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.general.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.info">
+<span id="dozer-cogs-info-module"></span><h2>dozer.cogs.info module<a class="headerlink" href="#module-dozer.cogs.info" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.info.Info">
+<em class="property">class </em><code class="descclassname">dozer.cogs.info.</code><code class="descname">Info</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.info.Info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<p>Commands for getting information about people and things on Discord.</p>
+<dl class="attribute">
+<dt id="dozer.cogs.info.Info.guild">
+<code class="descname">guild</code><a class="headerlink" href="#dozer.cogs.info.Info.guild" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.info.Info.member">
+<code class="descname">member</code><a class="headerlink" href="#dozer.cogs.info.Info.member" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.info.setup">
+<code class="descclassname">dozer.cogs.info.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.info.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.maintenance">
+<span id="dozer-cogs-maintenance-module"></span><h2>dozer.cogs.maintenance module<a class="headerlink" href="#module-dozer.cogs.maintenance" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.maintenance.Maintenance">
+<em class="property">class </em><code class="descclassname">dozer.cogs.maintenance.</code><code class="descname">Maintenance</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.maintenance.Maintenance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<p>Commands for performing maintenance on the bot.
+These commands are restricted to bot developers.</p>
+<dl class="attribute">
+<dt id="dozer.cogs.maintenance.Maintenance.restart">
+<code class="descname">restart</code><a class="headerlink" href="#dozer.cogs.maintenance.Maintenance.restart" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.maintenance.Maintenance.shutdown">
+<code class="descname">shutdown</code><a class="headerlink" href="#dozer.cogs.maintenance.Maintenance.shutdown" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.maintenance.Maintenance.update">
+<code class="descname">update</code><a class="headerlink" href="#dozer.cogs.maintenance.Maintenance.update" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.maintenance.setup">
+<code class="descclassname">dozer.cogs.maintenance.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.maintenance.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.moderation">
+<span id="dozer-cogs-moderation-module"></span><h2>dozer.cogs.moderation module<a class="headerlink" href="#module-dozer.cogs.moderation" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.moderation.Deafen">
+<em class="property">class </em><code class="descclassname">dozer.cogs.moderation.</code><code class="descname">Deafen</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Deafen" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Deafen.guild">
+<code class="descname">guild</code><a class="headerlink" href="#dozer.cogs.moderation.Deafen.guild" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Deafen.id">
+<code class="descname">id</code><a class="headerlink" href="#dozer.cogs.moderation.Deafen.id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Deafen.self_inflicted">
+<code class="descname">self_inflicted</code><a class="headerlink" href="#dozer.cogs.moderation.Deafen.self_inflicted" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.moderation.GuildMemberLog">
+<em class="property">class </em><code class="descclassname">dozer.cogs.moderation.</code><code class="descname">GuildMemberLog</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.GuildMemberLog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildMemberLog.id">
+<code class="descname">id</code><a class="headerlink" href="#dozer.cogs.moderation.GuildMemberLog.id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildMemberLog.memberlog_channel">
+<code class="descname">memberlog_channel</code><a class="headerlink" href="#dozer.cogs.moderation.GuildMemberLog.memberlog_channel" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildMemberLog.name">
+<code class="descname">name</code><a class="headerlink" href="#dozer.cogs.moderation.GuildMemberLog.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.moderation.GuildMessageLinks">
+<em class="property">class </em><code class="descclassname">dozer.cogs.moderation.</code><code class="descname">GuildMessageLinks</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.GuildMessageLinks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildMessageLinks.guild_id">
+<code class="descname">guild_id</code><a class="headerlink" href="#dozer.cogs.moderation.GuildMessageLinks.guild_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildMessageLinks.role_id">
+<code class="descname">role_id</code><a class="headerlink" href="#dozer.cogs.moderation.GuildMessageLinks.role_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.moderation.GuildMessageLog">
+<em class="property">class </em><code class="descclassname">dozer.cogs.moderation.</code><code class="descname">GuildMessageLog</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.GuildMessageLog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildMessageLog.id">
+<code class="descname">id</code><a class="headerlink" href="#dozer.cogs.moderation.GuildMessageLog.id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildMessageLog.messagelog_channel">
+<code class="descname">messagelog_channel</code><a class="headerlink" href="#dozer.cogs.moderation.GuildMessageLog.messagelog_channel" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildMessageLog.name">
+<code class="descname">name</code><a class="headerlink" href="#dozer.cogs.moderation.GuildMessageLog.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.moderation.GuildModLog">
+<em class="property">class </em><code class="descclassname">dozer.cogs.moderation.</code><code class="descname">GuildModLog</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.GuildModLog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildModLog.id">
+<code class="descname">id</code><a class="headerlink" href="#dozer.cogs.moderation.GuildModLog.id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildModLog.modlog_channel">
+<code class="descname">modlog_channel</code><a class="headerlink" href="#dozer.cogs.moderation.GuildModLog.modlog_channel" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildModLog.name">
+<code class="descname">name</code><a class="headerlink" href="#dozer.cogs.moderation.GuildModLog.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.moderation.GuildMute">
+<em class="property">class </em><code class="descclassname">dozer.cogs.moderation.</code><code class="descname">GuildMute</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.GuildMute" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildMute.guild">
+<code class="descname">guild</code><a class="headerlink" href="#dozer.cogs.moderation.GuildMute.guild" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildMute.id">
+<code class="descname">id</code><a class="headerlink" href="#dozer.cogs.moderation.GuildMute.id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.moderation.GuildNewMember">
+<em class="property">class </em><code class="descclassname">dozer.cogs.moderation.</code><code class="descname">GuildNewMember</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.GuildNewMember" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildNewMember.channel_id">
+<code class="descname">channel_id</code><a class="headerlink" href="#dozer.cogs.moderation.GuildNewMember.channel_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildNewMember.guild_id">
+<code class="descname">guild_id</code><a class="headerlink" href="#dozer.cogs.moderation.GuildNewMember.guild_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildNewMember.message">
+<code class="descname">message</code><a class="headerlink" href="#dozer.cogs.moderation.GuildNewMember.message" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.GuildNewMember.role_id">
+<code class="descname">role_id</code><a class="headerlink" href="#dozer.cogs.moderation.GuildNewMember.role_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.moderation.MemberRole">
+<em class="property">class </em><code class="descclassname">dozer.cogs.moderation.</code><code class="descname">MemberRole</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.MemberRole" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.MemberRole.id">
+<code class="descname">id</code><a class="headerlink" href="#dozer.cogs.moderation.MemberRole.id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.MemberRole.member_role">
+<code class="descname">member_role</code><a class="headerlink" href="#dozer.cogs.moderation.MemberRole.member_role" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.moderation.Moderation">
+<em class="property">class </em><code class="descclassname">dozer.cogs.moderation.</code><code class="descname">Moderation</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Moderation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.ban">
+<code class="descname">ban</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.ban" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.moderation.Moderation.check_links">
+<code class="descname">check_links</code><span class="sig-paren">(</span><em>msg</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Moderation.check_links" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.deafen">
+<code class="descname">deafen</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.deafen" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.kick">
+<code class="descname">kick</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.kick" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.linkscrubconfig">
+<code class="descname">linkscrubconfig</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.linkscrubconfig" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.memberconfig">
+<code class="descname">memberconfig</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.memberconfig" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.memberlogconfig">
+<code class="descname">memberlogconfig</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.memberlogconfig" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.messagelogconfig">
+<code class="descname">messagelogconfig</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.messagelogconfig" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.moderation.Moderation.mod_logger">
+<code class="descname">mod_logger</code><span class="sig-paren">(</span><em>ctx</em>, <em>action</em>, <em>target</em>, <em>reason</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Moderation.mod_logger" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.modlogconfig">
+<code class="descname">modlogconfig</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.modlogconfig" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.mute">
+<code class="descname">mute</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.mute" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.nmconfig">
+<code class="descname">nmconfig</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.nmconfig" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.moderation.Moderation.on_member_join">
+<code class="descname">on_member_join</code><span class="sig-paren">(</span><em>member</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Moderation.on_member_join" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.moderation.Moderation.on_member_remove">
+<code class="descname">on_member_remove</code><span class="sig-paren">(</span><em>member</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Moderation.on_member_remove" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.moderation.Moderation.on_message">
+<code class="descname">on_message</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Moderation.on_message" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.moderation.Moderation.on_message_delete">
+<code class="descname">on_message_delete</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Moderation.on_message_delete" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.moderation.Moderation.on_message_edit">
+<code class="descname">on_message_edit</code><span class="sig-paren">(</span><em>before</em>, <em>after</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Moderation.on_message_edit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.moderation.Moderation.perm_override">
+<code class="descname">perm_override</code><span class="sig-paren">(</span><em>user</em>, <em>**overwrites</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Moderation.perm_override" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.prune">
+<code class="descname">prune</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.prune" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.moderation.Moderation.punishment_timer">
+<code class="descname">punishment_timer</code><span class="sig-paren">(</span><em>ctx</em>, <em>timing</em>, <em>target</em>, <em>lookup</em>, <em>reason</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.Moderation.punishment_timer" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.selfdeafen">
+<code class="descname">selfdeafen</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.selfdeafen" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.timeout">
+<code class="descname">timeout</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.timeout" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.unban">
+<code class="descname">unban</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.unban" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.undeafen">
+<code class="descname">undeafen</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.undeafen" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.moderation.Moderation.unmute">
+<code class="descname">unmute</code><a class="headerlink" href="#dozer.cogs.moderation.Moderation.unmute" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.moderation.SafeRoleConverter">
+<em class="property">class </em><code class="descclassname">dozer.cogs.moderation.</code><code class="descname">SafeRoleConverter</code><a class="headerlink" href="#dozer.cogs.moderation.SafeRoleConverter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">discord.ext.commands.converter.RoleConverter</span></code></p>
+<dl class="method">
+<dt id="dozer.cogs.moderation.SafeRoleConverter.convert">
+<code class="descname">convert</code><span class="sig-paren">(</span><em>ctx</em>, <em>arg</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.SafeRoleConverter.convert" title="Permalink to this definition">¶</a></dt>
+<dd><p><a href="#id1"><span class="problematic" id="id2">|coro|</span></a></p>
+<p>The method to override to do conversion logic.</p>
+<p>If an error is found while converting, it is recommended to
+raise a <code class="xref py py-exc docutils literal notranslate"><span class="pre">CommandError</span></code> derived exception as it will
+properly propagate to the error handlers.</p>
+<dl class="docutils">
+<dt>ctx: <code class="xref py py-class docutils literal notranslate"><span class="pre">Context</span></code></dt>
+<dd>The invocation context that the argument is being used in.</dd>
+<dt>argument: str</dt>
+<dd>The argument that is being converted.</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.moderation.setup">
+<code class="descclassname">dozer.cogs.moderation.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.moderation.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.namegame">
+<span id="dozer-cogs-namegame-module"></span><h2>dozer.cogs.namegame module<a class="headerlink" href="#module-dozer.cogs.namegame" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.namegame.NameGame">
+<em class="property">class </em><code class="descclassname">dozer.cogs.namegame.</code><code class="descname">NameGame</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGame" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.addplayer">
+<code class="descname">addplayer</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.addplayer" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.clearsetchannel">
+<code class="descname">clearsetchannel</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.clearsetchannel" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.config">
+<code class="descname">config</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.config" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.defaultmode">
+<code class="descname">defaultmode</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.defaultmode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGame.display_info">
+<code class="descname">display_info</code><span class="sig-paren">(</span><em>ctx</em>, <em>game</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGame.display_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.drop">
+<code class="descname">drop</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.drop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGame.game_turn_countdown">
+<code class="descname">game_turn_countdown</code><span class="sig-paren">(</span><em>ctx</em>, <em>game</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGame.game_turn_countdown" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGame.game_vote_countdown">
+<code class="descname">game_vote_countdown</code><span class="sig-paren">(</span><em>ctx</em>, <em>game</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGame.game_vote_countdown" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.gameinfo">
+<code class="descname">gameinfo</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.gameinfo" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.info">
+<code class="descname">info</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.leaderboard">
+<code class="descname">leaderboard</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.leaderboard" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.leaderboardclear">
+<code class="descname">leaderboardclear</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.leaderboardclear" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.leaderboardedit">
+<code class="descname">leaderboardedit</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.leaderboardedit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.modes">
+<code class="descname">modes</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.modes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.ng">
+<code class="descname">ng</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.ng" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGame.notify">
+<code class="descname">notify</code><span class="sig-paren">(</span><em>ctx</em>, <em>game</em>, <em>msg</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGame.notify" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGame.on_reaction_add">
+<code class="descname">on_reaction_add</code><span class="sig-paren">(</span><em>reaction</em>, <em>user</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGame.on_reaction_add" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGame.on_reaction_remove">
+<code class="descname">on_reaction_remove</code><span class="sig-paren">(</span><em>reaction</em>, <em>user</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGame.on_reaction_remove" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.pick">
+<code class="descname">pick</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.pick" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGame.send_turn_embed">
+<code class="descname">send_turn_embed</code><span class="sig-paren">(</span><em>ctx</em>, <em>game</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGame.send_turn_embed" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.setchannel">
+<code class="descname">setchannel</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.setchannel" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.setpings">
+<code class="descname">setpings</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.setpings" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.skip">
+<code class="descname">skip</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.skip" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGame.skip_player">
+<code class="descname">skip_player</code><span class="sig-paren">(</span><em>ctx</em>, <em>game</em>, <em>player</em>, <em>msg=None</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGame.skip_player" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.startround">
+<code class="descname">startround</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.startround" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGame.strike">
+<code class="descname">strike</code><span class="sig-paren">(</span><em>ctx</em>, <em>game</em>, <em>player</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGame.strike" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGame.unheck">
+<code class="descname">unheck</code><a class="headerlink" href="#dozer.cogs.namegame.NameGame.unheck" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.namegame.NameGameConfig">
+<em class="property">class </em><code class="descclassname">dozer.cogs.namegame.</code><code class="descname">NameGameConfig</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGameConfig" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGameConfig.channel_id">
+<code class="descname">channel_id</code><a class="headerlink" href="#dozer.cogs.namegame.NameGameConfig.channel_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGameConfig.guild_id">
+<code class="descname">guild_id</code><a class="headerlink" href="#dozer.cogs.namegame.NameGameConfig.guild_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGameConfig.mode">
+<code class="descname">mode</code><a class="headerlink" href="#dozer.cogs.namegame.NameGameConfig.mode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGameConfig.pings_enabled">
+<code class="descname">pings_enabled</code><a class="headerlink" href="#dozer.cogs.namegame.NameGameConfig.pings_enabled" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.namegame.NameGameLeaderboard">
+<em class="property">class </em><code class="descclassname">dozer.cogs.namegame.</code><code class="descname">NameGameLeaderboard</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGameLeaderboard" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGameLeaderboard.game_mode">
+<code class="descname">game_mode</code><a class="headerlink" href="#dozer.cogs.namegame.NameGameLeaderboard.game_mode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGameLeaderboard.user_id">
+<code class="descname">user_id</code><a class="headerlink" href="#dozer.cogs.namegame.NameGameLeaderboard.user_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.namegame.NameGameLeaderboard.wins">
+<code class="descname">wins</code><a class="headerlink" href="#dozer.cogs.namegame.NameGameLeaderboard.wins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.namegame.NameGameSession">
+<em class="property">class </em><code class="descclassname">dozer.cogs.namegame.</code><code class="descname">NameGameSession</code><span class="sig-paren">(</span><em>mode</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGameSession" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGameSession.check_name">
+<code class="descname">check_name</code><span class="sig-paren">(</span><em>ctx</em>, <em>team</em>, <em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGameSession.check_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGameSession.check_win">
+<code class="descname">check_win</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGameSession.check_win" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGameSession.create_embed">
+<code class="descname">create_embed</code><span class="sig-paren">(</span><em>title=''</em>, <em>description=''</em>, <em>color=&lt;Colour value=7506394&gt;</em>, <em>extra_fields=[]</em>, <em>start=False</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGameSession.create_embed" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGameSession.get_picked">
+<code class="descname">get_picked</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGameSession.get_picked" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGameSession.next_turn">
+<code class="descname">next_turn</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGameSession.next_turn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.namegame.NameGameSession.strike">
+<code class="descname">strike</code><span class="sig-paren">(</span><em>player</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.NameGameSession.strike" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.namegame.game_is_running">
+<code class="descclassname">dozer.cogs.namegame.</code><code class="descname">game_is_running</code><span class="sig-paren">(</span><em>func</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.game_is_running" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.namegame.keep_alive">
+<code class="descclassname">dozer.cogs.namegame.</code><code class="descname">keep_alive</code><span class="sig-paren">(</span><em>func</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.keep_alive" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.namegame.setup">
+<code class="descclassname">dozer.cogs.namegame.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.namegame.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.roles">
+<span id="dozer-cogs-roles-module"></span><h2>dozer.cogs.roles module<a class="headerlink" href="#module-dozer.cogs.roles" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.roles.GiveableRole">
+<em class="property">class </em><code class="descclassname">dozer.cogs.roles.</code><code class="descname">GiveableRole</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.roles.GiveableRole" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="classmethod">
+<dt id="dozer.cogs.roles.GiveableRole.from_role">
+<em class="property">classmethod </em><code class="descname">from_role</code><span class="sig-paren">(</span><em>role</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.roles.GiveableRole.from_role" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a GiveableRole record from a discord.Role.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.GiveableRole.guild_id">
+<code class="descname">guild_id</code><a class="headerlink" href="#dozer.cogs.roles.GiveableRole.guild_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.GiveableRole.guild_settings">
+<code class="descname">guild_settings</code><a class="headerlink" href="#dozer.cogs.roles.GiveableRole.guild_settings" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.GiveableRole.id">
+<code class="descname">id</code><a class="headerlink" href="#dozer.cogs.roles.GiveableRole.id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.GiveableRole.name">
+<code class="descname">name</code><a class="headerlink" href="#dozer.cogs.roles.GiveableRole.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.GiveableRole.norm_name">
+<code class="descname">norm_name</code><a class="headerlink" href="#dozer.cogs.roles.GiveableRole.norm_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.roles.GuildSettings">
+<em class="property">class </em><code class="descclassname">dozer.cogs.roles.</code><code class="descname">GuildSettings</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.roles.GuildSettings" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.roles.GuildSettings.giveable_roles">
+<code class="descname">giveable_roles</code><a class="headerlink" href="#dozer.cogs.roles.GuildSettings.giveable_roles" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.GuildSettings.id">
+<code class="descname">id</code><a class="headerlink" href="#dozer.cogs.roles.GuildSettings.id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.roles.MissingMember">
+<em class="property">class </em><code class="descclassname">dozer.cogs.roles.</code><code class="descname">MissingMember</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.roles.MissingMember" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.roles.MissingMember.guild_id">
+<code class="descname">guild_id</code><a class="headerlink" href="#dozer.cogs.roles.MissingMember.guild_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.MissingMember.member_id">
+<code class="descname">member_id</code><a class="headerlink" href="#dozer.cogs.roles.MissingMember.member_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.MissingMember.missing_roles">
+<code class="descname">missing_roles</code><a class="headerlink" href="#dozer.cogs.roles.MissingMember.missing_roles" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.roles.MissingRole">
+<em class="property">class </em><code class="descclassname">dozer.cogs.roles.</code><code class="descname">MissingRole</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.roles.MissingRole" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.roles.MissingRole.guild_id">
+<code class="descname">guild_id</code><a class="headerlink" href="#dozer.cogs.roles.MissingRole.guild_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.MissingRole.member">
+<code class="descname">member</code><a class="headerlink" href="#dozer.cogs.roles.MissingRole.member" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.MissingRole.member_id">
+<code class="descname">member_id</code><a class="headerlink" href="#dozer.cogs.roles.MissingRole.member_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.MissingRole.role_id">
+<code class="descname">role_id</code><a class="headerlink" href="#dozer.cogs.roles.MissingRole.role_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.MissingRole.role_name">
+<code class="descname">role_name</code><a class="headerlink" href="#dozer.cogs.roles.MissingRole.role_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.roles.Roles">
+<em class="property">class </em><code class="descclassname">dozer.cogs.roles.</code><code class="descname">Roles</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.roles.Roles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<p>Commands for role management.</p>
+<dl class="attribute">
+<dt id="dozer.cogs.roles.Roles.add">
+<code class="descname">add</code><a class="headerlink" href="#dozer.cogs.roles.Roles.add" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.Roles.create">
+<code class="descname">create</code><a class="headerlink" href="#dozer.cogs.roles.Roles.create" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.Roles.delete">
+<code class="descname">delete</code><a class="headerlink" href="#dozer.cogs.roles.Roles.delete" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.Roles.give">
+<code class="descname">give</code><a class="headerlink" href="#dozer.cogs.roles.Roles.give" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.Roles.giveme">
+<code class="descname">giveme</code><a class="headerlink" href="#dozer.cogs.roles.Roles.giveme" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.Roles.list_roles">
+<code class="descname">list_roles</code><a class="headerlink" href="#dozer.cogs.roles.Roles.list_roles" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="dozer.cogs.roles.Roles.normalize">
+<em class="property">static </em><code class="descname">normalize</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.roles.Roles.normalize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.roles.Roles.on_member_join">
+<code class="descname">on_member_join</code><span class="sig-paren">(</span><em>member</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.roles.Roles.on_member_join" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dozer.cogs.roles.Roles.on_member_remove">
+<code class="descname">on_member_remove</code><span class="sig-paren">(</span><em>member</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.roles.Roles.on_member_remove" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.Roles.remove">
+<code class="descname">remove</code><a class="headerlink" href="#dozer.cogs.roles.Roles.remove" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.Roles.removefromlist">
+<code class="descname">removefromlist</code><a class="headerlink" href="#dozer.cogs.roles.Roles.removefromlist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.roles.Roles.take">
+<code class="descname">take</code><a class="headerlink" href="#dozer.cogs.roles.Roles.take" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.roles.setup">
+<code class="descclassname">dozer.cogs.roles.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.roles.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.tba">
+<span id="dozer-cogs-tba-module"></span><h2>dozer.cogs.tba module<a class="headerlink" href="#module-dozer.cogs.tba" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.tba.TBA">
+<em class="property">class </em><code class="descclassname">dozer.cogs.tba.</code><code class="descname">TBA</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.tba.TBA" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.tba.TBA.raw">
+<code class="descname">raw</code><a class="headerlink" href="#dozer.cogs.tba.TBA.raw" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.tba.TBA.tba">
+<code class="descname">tba</code><a class="headerlink" href="#dozer.cogs.tba.TBA.tba" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.tba.TBA.team">
+<code class="descname">team</code><a class="headerlink" href="#dozer.cogs.tba.TBA.team" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.tba.TBA.timezone">
+<code class="descname">timezone</code><a class="headerlink" href="#dozer.cogs.tba.TBA.timezone" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.tba.setup">
+<code class="descclassname">dozer.cogs.tba.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.tba.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.teams">
+<span id="dozer-cogs-teams-module"></span><h2>dozer.cogs.teams module<a class="headerlink" href="#module-dozer.cogs.teams" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.teams.TeamNumbers">
+<em class="property">class </em><code class="descclassname">dozer.cogs.teams.</code><code class="descname">TeamNumbers</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.teams.TeamNumbers" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.teams.TeamNumbers.team_number">
+<code class="descname">team_number</code><a class="headerlink" href="#dozer.cogs.teams.TeamNumbers.team_number" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.teams.TeamNumbers.team_type">
+<code class="descname">team_type</code><a class="headerlink" href="#dozer.cogs.teams.TeamNumbers.team_type" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.teams.TeamNumbers.user_id">
+<code class="descname">user_id</code><a class="headerlink" href="#dozer.cogs.teams.TeamNumbers.user_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.teams.Teams">
+<em class="property">class </em><code class="descclassname">dozer.cogs.teams.</code><code class="descname">Teams</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.teams.Teams" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<dl class="method">
+<dt id="dozer.cogs.teams.Teams.on_member_join">
+<code class="descname">on_member_join</code><span class="sig-paren">(</span><em>member</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.teams.Teams.on_member_join" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.teams.Teams.onteam">
+<code class="descname">onteam</code><a class="headerlink" href="#dozer.cogs.teams.Teams.onteam" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.teams.Teams.removeteam">
+<code class="descname">removeteam</code><a class="headerlink" href="#dozer.cogs.teams.Teams.removeteam" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.teams.Teams.setteam">
+<code class="descname">setteam</code><a class="headerlink" href="#dozer.cogs.teams.Teams.setteam" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.teams.Teams.teamsfor">
+<code class="descname">teamsfor</code><a class="headerlink" href="#dozer.cogs.teams.Teams.teamsfor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.teams.setup">
+<code class="descclassname">dozer.cogs.teams.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.teams.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.toa">
+<span id="dozer-cogs-toa-module"></span><h2>dozer.cogs.toa module<a class="headerlink" href="#module-dozer.cogs.toa" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.toa.TOA">
+<em class="property">class </em><code class="descclassname">dozer.cogs.toa.</code><code class="descname">TOA</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.toa.TOA" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.toa.TOA.team">
+<code class="descname">team</code><a class="headerlink" href="#dozer.cogs.toa.TOA.team" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.toa.TOA.toa">
+<code class="descname">toa</code><a class="headerlink" href="#dozer.cogs.toa.TOA.toa" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.toa.setup">
+<code class="descclassname">dozer.cogs.toa.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.toa.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs.voice">
+<span id="dozer-cogs-voice-module"></span><h2>dozer.cogs.voice module<a class="headerlink" href="#module-dozer.cogs.voice" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="dozer.cogs.voice.Voice">
+<em class="property">class </em><code class="descclassname">dozer.cogs.voice.</code><code class="descname">Voice</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.voice.Voice" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dozer.cogs._utils.Cog</span></code></p>
+<dl class="method">
+<dt id="dozer.cogs.voice.Voice.on_voice_state_update">
+<code class="descname">on_voice_state_update</code><span class="sig-paren">(</span><em>member</em>, <em>before</em>, <em>after</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.voice.Voice.on_voice_state_update" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.voice.Voice.voicebind">
+<code class="descname">voicebind</code><a class="headerlink" href="#dozer.cogs.voice.Voice.voicebind" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.voice.Voice.voicebindlist">
+<code class="descname">voicebindlist</code><a class="headerlink" href="#dozer.cogs.voice.Voice.voicebindlist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.voice.Voice.voiceunbind">
+<code class="descname">voiceunbind</code><a class="headerlink" href="#dozer.cogs.voice.Voice.voiceunbind" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="dozer.cogs.voice.Voicebinds">
+<em class="property">class </em><code class="descclassname">dozer.cogs.voice.</code><code class="descname">Voicebinds</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.voice.Voicebinds" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sqlalchemy.ext.declarative.api.DatabaseObject</span></code></p>
+<dl class="attribute">
+<dt id="dozer.cogs.voice.Voicebinds.channel_id">
+<code class="descname">channel_id</code><a class="headerlink" href="#dozer.cogs.voice.Voicebinds.channel_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.voice.Voicebinds.guild_id">
+<code class="descname">guild_id</code><a class="headerlink" href="#dozer.cogs.voice.Voicebinds.guild_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.voice.Voicebinds.id">
+<code class="descname">id</code><a class="headerlink" href="#dozer.cogs.voice.Voicebinds.id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dozer.cogs.voice.Voicebinds.role_id">
+<code class="descname">role_id</code><a class="headerlink" href="#dozer.cogs.voice.Voicebinds.role_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="dozer.cogs.voice.setup">
+<code class="descclassname">dozer.cogs.voice.</code><code class="descname">setup</code><span class="sig-paren">(</span><em>bot</em><span class="sig-paren">)</span><a class="headerlink" href="#dozer.cogs.voice.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-dozer.cogs">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-dozer.cogs" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">dozer.cogs package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.development">dozer.cogs.development module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.fun">dozer.cogs.fun module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.general">dozer.cogs.general module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.info">dozer.cogs.info module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.maintenance">dozer.cogs.maintenance module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.moderation">dozer.cogs.moderation module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.namegame">dozer.cogs.namegame module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.roles">dozer.cogs.roles module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.tba">dozer.cogs.tba module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.teams">dozer.cogs.teams module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.toa">dozer.cogs.toa module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs.voice">dozer.cogs.voice module</a></li>
+<li><a class="reference internal" href="#module-dozer.cogs">Module contents</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/dozer.cogs.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, endreman0, tweirtx, guineawheek, leopi, bkeeneykid, and others.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/dozer.cogs.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

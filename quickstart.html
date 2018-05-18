@@ -10,13 +10,14 @@
 <body>
     <h1>This is a work in progress! This guide may not be complete.</h1>
     
-    <h3>Setup</h3>
+    <h3>Intro</h3>
     <p>Howdy! This is the quickstart guide for Dozer. This will walk you through how to get the best experience from Dozer on your Discord server.
         Not all of these steps are required, but these are recommended for the best experience.</p>
     
-        <h3>Webhook setup</h3>
+    <h3>Webhook setup</h3>
     <p>Dozer has an official Twitter account that is used to notify users of outages and other important information. If you would like to have this feed relayed to 
         a channel in your server, please create a webhook in the channel you would like the feed to go to and send the webhook URL to tweirtx (Travis from FRC team 5052)
+        You can also follow the Twitter account directly, which is @DozerDiscord.
     </p>
     
     <h3>Join/leave logs</h3>
@@ -30,6 +31,24 @@
     <h3>Giveme roles</h3>
     <p>To add a role to the list of roles people can give themselves, simply run &giveme add (role name). To remove, do &giveme removefromlist (role name).</p>
 
-    <p>Todo: modlogs, linkscrub, memberconfig, nmconfig, welcomeconfig, voicebinds</p>
+    <h3>Modlogs</h3>
+    <p>Want to use this bot for moderation and have it log all actions to a channel? You can do so with &modlogconfig #channel-name</p>
+
+    <h3>Member role</h3>
+    <p>This is necessary for some things to work correctly. This will tell Dozer what role is your guild's role for verified members. To do this, do &memberconfig (role)</p>
+
+    <h3>Welcome Messages</h3>
+    <p>Coming soon</p>
+
+    <h3>Voicebinds</h3>
+    <p>You can configure certain channels to only appear to a member when they are in a certain voice chat. To do this, do &voicebind "Voice channel name" #text-channel and to unbind, do &voiceunbind "Voice channel"</p>
+
+    <h3>New member rule acceptance</h3>
+    <p>Dozer has a feature where you can require a certain phrase to be sent by a user before they are given access to the server. To do this, run &nmconfig #channel-name (members role name) (Message you want new users to send.</p>
+
+    <h3>Link Scrubbing</h3>
+    <p>You can restrict the sending of links at all unless a user has a certain role. To set this up, do &linkscrubconfig (role users must have to send).</p>
+
+    <p>Todo: figure out what welcome actually does</p>
 </body>
 </html>
